@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+nav{
+    background-color:#FFFFFF;
+    
+   
+    
+    
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    margin-left: 30%;
+    
+   
+   
+}
+li a{
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    color: #222222;
+   
+
+    
+}
+li{
+    float: left;
+    padding: 30px 10px;
+    font-size: 1.0em;
+    font-weight: bold;
+    
+    
+    
+}
+li.icon{
+    padding: 10px;
+    margin-top: 3%;
+    color:#222222;
+}
+button.butt{
+    margin-top: 2.3%;
+    margin-left: 3%;
+    padding: 12px 10px;
+    width: 20%;
+    border: 3px solid #E84D14 ;
+    border-radius: 50px;
+    font-size: 1.0em;
+    background-color: #E84D14;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+i#phone{
+    margin-right: 4%;
+    padding: 3px;
+
+}
+li.right{
+    float: right;
+    
+   
+}
+div.container{
+margin-right: 12%;
+}
+li a.active{
+    color: #ECAE2D;
+}
+li a:hover{
+    color:#ECAE2D ;
+}
+li.right a:hover{
+    color: #DF470F;
+}
+button:hover{
+    background-color: #FFFFFF;
+    color:#DF470F;
+}
+div.image{
+    height: 600px;
+    position: relative;
+  
+ 
+}
+div.content h2{
+    font-size: 2.8em;
+    font-family: 'Playfair Display', serif;
+font-family: 'Nunito', sans-serif;
+
+position: absolute;
+left:60%;
+top:30%;
+
+}
+button.button{
+    position: absolute;
+    border:1px solid ;
+    top:62%;
+    left:60%;
+    padding:16px 12px;
+    width: 18%;
+    border-radius: 50px;
+    font-size: 1.0em;
+    font-weight: bold;
+    background-color: transparent;
+}
